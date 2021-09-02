@@ -48,13 +48,15 @@
   },
   "bin": "insight.js",
   "scripts": {
-    "start": "node node_modules/grunt-cli/bin/grunt"
+    "start": "node node_modules/grunt-cli/bin/grunt",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "async": "2.0.0",
     "base58-native": "0.1.2",
     "bignum": "*",
-    "bitauth": "^0.1.1",
+    "bitauth": "^0.4.1",
     "bitcore": "git+https://git@github.com/alexeirbv/dogecore",
     "bufferput": "git://github.com/bitpay/node-bufferput.git",
     "buffertools": "*",
@@ -74,7 +76,8 @@
     "socket.io-client": "1.0.6",
     "soop": "=0.1.5",
     "winston": "0.8.0",
-    "xmlhttprequest": "~1.6.0"
+    "xmlhttprequest": "~1.6.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "chai": "*",
@@ -90,5 +93,6 @@
     "memdown": "^0.10.2",
     "should": "^2.1.1",
     "sinon": "^1.10.3"
-  }
+  },
+  "snyk": true
 }
