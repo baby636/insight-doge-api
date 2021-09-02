@@ -1,0 +1,15 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:minimatch:20160620':
+    - bitcore > grunt-browserify > glob > minimatch:
+        patched: '2021-09-02T20:06:00.775Z'
+    - bitcore > grunt-browserify > watchify > browserify > glob > minimatch:
+        patched: '2021-09-02T20:06:00.775Z'
+  'npm:uglify-js:20151024':
+    - bitcore > grunt-browserify > watchify > browserify > umd > ruglify > uglify-js:
+        patched: '2021-09-02T20:06:00.775Z'
+    - bitcore > grunt-browserify > watchify > browserify > umd > uglify-js:
+        patched: '2021-09-02T20:06:00.775Z'
