@@ -54,7 +54,7 @@
     "async": "2.0.0",
     "base58-native": "0.1.2",
     "bignum": "*",
-    "bitauth": "^0.1.1",
+    "bitauth": "^0.3.0",
     "bitcore": "git+https://git@github.com/alexeirbv/dogecore",
     "bufferput": "git://github.com/bitpay/node-bufferput.git",
     "buffertools": "*",
@@ -86,7 +86,7 @@
     "grunt-env": "~0.4.1",
     "grunt-markdown": "~0.5.0",
     "grunt-mocha-test": "~0.8.1",
-    "grunt-nodemon": "~0.2.0",
+    "grunt-nodemon": "~0.4.0",
     "memdown": "^0.10.2",
     "should": "^2.1.1",
     "sinon": "^1.10.3"
